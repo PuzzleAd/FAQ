@@ -1,0 +1,24 @@
+
+@media (width >= 1024px) {
+    .container {
+        height: 100vh;
+    }
+    .white_box {
+        width: 64%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 65px 95px 83px 0;
+    }
+    .white_box > img {
+        width: 40%;
+        top: 0px;
+        left: -80px;
+    }
+
+    .text_container {
+        width: 50%;
+        gap: 43px;
+        align-items: flex-start;
+    }
+
+}
